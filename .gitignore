@@ -43,7 +43,6 @@ wheels/
 venv/
 env/
 ENV/
-.env
 .venv
 .uv-cache/
 env/
@@ -52,7 +51,6 @@ ENV/
 
 # IDE specific files
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -79,8 +77,6 @@ coverage.xml
 
 # LLM specific
 # API keys and secrets
-.env
-.env.local
 api_keys.yaml
 secrets.json
 
@@ -149,7 +145,6 @@ data/
 **/output/
 **/output_old/
 **/node_modules
-**/.vscode
 Agent.md
 data/
 masfactory-visualizer/out/
@@ -175,3 +170,4 @@ CLAUDE.md
 AGENT.md
 
 .modelpilot
+config.bat
